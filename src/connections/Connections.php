@@ -4,19 +4,17 @@ namespace Mediatoolkit\ActiveCampaign\Connections;
 
 use Mediatoolkit\ActiveCampaign\Resource;
 
-
-// TODO: update phpdoc comments
 /**
- * Class EcomCustomers
+ * Class Connections
  * @package Mediatoolkit\ActiveCampaign\EcomCustomers
- * @see https://developers.activecampaign.com/reference#customers
+ * @see https://developers.activecampaign.com/reference#connections
  */
 class Connections extends Resource
 {
 
     /**
-     * Create a Customer
-     * @see https://developers.activecampaign.com/reference#create-customer
+     * Create a Connection
+     * @see https://developers.activecampaign.com/reference#create-connection
      *
      * @param array $contact
      * @return string
@@ -36,8 +34,8 @@ class Connections extends Resource
 
 
     /**
-     * Get EcomCustomer
-     * @see https://developers.activecampaign.com/reference#get-customer
+     * Get Connection
+     * @see https://developers.activecampaign.com/reference#get-connection
      *
      * @param int $id
      * @return string
@@ -53,8 +51,8 @@ class Connections extends Resource
 
 
     /**
-     * Update a contact
-     * @see https://developers.activecampaign.com/reference#update-customer
+     * Update a connection
+     * @see https://developers.activecampaign.com/reference#update-connection
      *
      * @param int $id
      * @param array $contact
@@ -74,8 +72,8 @@ class Connections extends Resource
     }
 
     /**
-     * Delete a contact
-     * @see https://developers.activecampaign.com/reference#delete-customer
+     * Delete a connection
+     * @see https://developers.activecampaign.com/reference#delete-connection
      *
      * @param int $id
      * @return string
@@ -91,8 +89,8 @@ class Connections extends Resource
 
 
     /**
-     * List all contacts
-     * @see https://developers.activecampaign.com/reference#list-all-contacts
+     * List all connections
+     * @see https://developers.activecampaign.com/reference#list-all-connections
      *
      * @param array $query_params
      * @param int $limit

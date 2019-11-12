@@ -89,7 +89,7 @@ class EcomCustomers extends Resource
 
 
     /**
-     * List all customer
+     * List all customers
      * @see https://developers.activecampaign.com/reference#list-all-contacts
      *
      * @param array $query_params
