@@ -35,8 +35,12 @@ $contact = $contacts->create([
 
 
 ## Available endpoints:
+* Connections
 * Contacts
 * Deals
+* E-Commerce Customers
+* E-Commerce Order Products
+* E-Commerce Orders
 * Lists
 * Organizations
 * EventTracking
